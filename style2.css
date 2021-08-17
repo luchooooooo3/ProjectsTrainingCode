@@ -1,0 +1,30 @@
+h1{
+    color: blue;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    /*background-color: blue;
+    opacity: 0.5;*/
+    background-color: rgba(0, 0, 255, 0.5); 
+}
+
+.img{
+    width:200px;
+    clip-path:ellipse(50% 50%);
+    max-width: 100%;
+}
+
+ul, ol{
+    background-image: url(https://chillbromance.files.wordpress.com/2018/07/sunset.jpg?w=820&h=312&crop=1);
+}

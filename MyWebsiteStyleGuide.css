@@ -1,0 +1,101 @@
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    margin-left: 180px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+h2{
+    margin-left: 40px;
+    padding-top: 15px;
+    letter-spacing: 2px;
+}
+
+.colors{
+    border: 2px solid rgb(173, 162, 162);
+    margin-left: 170px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+}
+
+.ul-colors{
+    display: inline-flex;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 40px;
+    color: white;
+}
+
+#red{
+    border: 1px solid red;
+    background-color: red;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    padding: 20px 120px 10px 120px;
+}
+
+#blue{
+    border: 1px solid blue;
+    background-color: blue;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    padding: 20px 120px 10px 120px;
+}
+
+#pink{
+    border: 1px solid pink;
+    background-color: pink;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    padding: 20px 120px 10px 120px;
+}
+
+#mediumspringgreen{
+    border: 1px solid mediumspringgreen;
+    background-color: mediumspringgreen;
+    margin-bottom: 10px;
+    padding: 20px 80px 10px 80px;
+}
+
+.fonts{
+    border: 2px solid rgb(173, 162, 162);
+    padding-bottom: 20px;
+    margin: 20px 200px auto 170px;
+}
+
+.sourcecodepro{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.nunitosans{
+    margin-left: 600px;
+    margin-top: -145px;
+}
+
+.poppins{
+    margin-left: 1140px;
+    margin-top: -145px;
+}
+
+.textstyles{
+    border: 2px solid rgb(173, 162, 162);
+    padding-bottom: 20px;
+    margin: 20px 200px auto 170px;
+}
+
+.titre{
+    margin-left: 20px;
+}
+
+.p1{
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
