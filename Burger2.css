@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.header{
+    display: inline-block;
+    width: 100%;
+    background-color: #002366;
+    color:#FEFFE2;
+    text-align: center;
+    padding: 55px 15px;
+}
+
+h1{
+    font-family: 'Oculi Magni Medium' sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.logo{
+    position: absolute;
+    margin: -80px -950px;
+    height: 200px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEFFE2;
+}
+
+.container2{
+    height: 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #FEFFE2;
+    margin: -460px 285px;
+}
+
+.container3{
+    height: 0px;
+    width: 700px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #FEFFE2;
+    margin: 460px 1300px;
+}
+
+.card__img{
+    position: absolute;
+    width: 260px;
+    filter: drop-shadow(5px 10px 15px rgb(150,125,68));
+    transform: translate(.2rem, -8.5rem);
+}
+
+.card{
+    width: 320px;
+    height: 460px;
+    background-color: #002366;
+    border-radius: 1rem;
+    padding: 4rem 2rem 0;
+    box-shadow: 0 0 3em #002366;
+}
+
+.card__23{
+    width: 320px;
+    height: 460px;
+    background-color: #002366;
+    border-radius: 1rem;
+    padding: 4rem 2rem 0;
+}
+
+.card:hover, .card__23:hover{
+    width: 340px;
+    height: 480px;
+}
+
+.card__title{
+    font-size: 1.6rem;
+    color: #FEFFE2;
+    margin-bottom: .5rem;
+}
+
+.card__data{
+    transform: translateY(4.8rem);
+}
+
+.card__price{
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #FEFFE2;
+}
+
+.card__description{
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+    color: #FEFFE2;
+}
+
+.card__engagement{
+    text-align: center;
+    font-size: .8rem;
+    margin: 1rem;
+    color: #FEFFE2;
+}
+
+.card__button{
+    display: block;
+    width: max-content;
+    padding: 1.125rem 2rem;
+    margin: auto;
+    background-color: #FEFFE2;
+    color: #002366;
+    border-radius: .75rem;
+    font-weight: 600;
+}
+
+.card__button:hover{
+    padding: 1.325rem 2.3rem;
+}
+
+.footer{
+    background-color: #002366;
+    color: #FEFFE2;
+    padding: 70px 70px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
