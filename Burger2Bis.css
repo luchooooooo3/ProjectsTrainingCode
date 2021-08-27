@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.header{
+    display: inline-block;
+    width: 100%;
+    background-color: #002366;
+    color: #FEFFE2;
+    padding: 60px 0px;
+}
+
+.logo{
+    position: absolute;
+    height: 200px;
+    margin: -80px -10px;
+}
+
+@media only screen and (max-width: 735px){
+    .logo{
+        display: none;
+    }
+}
+
+h1{
+    font-family: 'Oculi Magni Medium' sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+
+.burgers{
+    background-color: #FEFFE2;
+    display: flex;
+    padding: 150px 30px 2000px 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card__cheese{
+    background-color: #002366;
+    color: #FEFFE2;
+    padding: 30px 60px 30px 30px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 5px 10px #002366);
+}
+
+.card__strong{
+    background-color: #002366;
+    color: #FEFFE2;
+    padding: 30px 60px 30px 30px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 5px 10px #002366);
+}
+
+.card__mountain{
+    background-color: #002366;
+    color: #FEFFE2;
+    padding: 30px 37px 30px 30px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 5px 10px #002366);
+}
+
+.card__img{
+    position: absolute;
+    height: 150px;
+    margin-top: -100px;
+    padding-left: 35px;
+    filter: drop-shadow(5px 10px 15px rgb(150,125,68));
+}
+
+.card__data{
+    padding-top: 60px;
+}
+
+.card__title{
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+.card__price{
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-left: 35px;
+}
+
+.card__description{
+    padding-top: 15px;
+    padding-left: 45px;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.card__accompagnement{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.card__engagement{
+    font-size: 0.8rem;
+    margin-top: 25px;
+    text-align: center;
+    display: block;
+    padding-left: 30px;
+}
+
+.button{
+    display: block;
+    width: max-content;
+    background-color: #FEFFE2;
+    color: #002366;
+    font-weight: bold;
+    padding: 15px 25px 15px 25px;
+    margin: 0 0 15px 70px;
+    border-radius: 8px;
+    align-content: center;
+}
+
+.button:hover{
+    padding: 20px 30px 20px 30px;
+    margin: 0 0 20px 65px;
+}
+
+.footer{
+    background-color: #002366;
+    color: #FEFFE2;
+    font-weight: 200;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 50px;
+}
