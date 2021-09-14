@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-size: 35px;
+}
+
+header{
+    height: 97px;
+    margin: 0 0 0 30px;
+    color: #4A4A4A;
+}
+
+header h1{
+    padding: 70px 0;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: -65px 0;
+}
+
+nav ul li{
+    padding: 0 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+#logo-fotomatic{
+    padding: 30px 0;
+}
+
+#logo-instagram{
+    height: 20px;
+    width: 20px;
+    padding-left: 20px;
+}
+
+.section-one{
+    color: whitesmoke;
+    background-image: url(./F1C1_start/resources/images/banner-landingpage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    display: flex;
+}
+
+#format-camera{
+    font-size: 50px;
+    line-height: 1.4;
+    padding-bottom: 12px;
+}
+
+#email-request{
+    font-size: 20px;
+}
+
+.newsletter{
+    background-color: rgb(154, 194, 46);
+    border: 1px solid #979797;
+    border-radius: 4px;
+    width: 30%;
+    height: 30%;
+    line-height: 1.4;
+    padding: 50px 25px 50px 25px;
+    margin: 170px auto 170px 100px;
+    text-align: center;
+}
+
+.newsletter-mail{
+    background-color: #4A4A4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
+    height: 64px;
+    width: 408px;
+    margin: 26px 80px 56px 80px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.newsletter-mail:hover{
+    background-color: rgb(236, 236, 236);
+    color: #4A4A4A;
+}
+
+.section-two{
+    background-color: rgb(211, 211, 211);
+    height: 760px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-droite, .div-gauche{
+    background-color: whitesmoke;
+    height: 635px;
+    width: 750px;
+    margin: 64px 38px 46px 38px;
+}
+
+.image{
+    height: 65%;
+    width: 80%;
+    display: flex;
+    margin: 32px auto 20px auto;
+}
+
+.image:hover{
+    height: 68%;
+    width: 83%;
+}
+
+.blabla{
+    text-align: center;
+    color: #4A4A4A;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.blabla h1{
+    font-size: 32px;
+    line-height: 1.7;
+}
+
+.blabla p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.section-three{
+    background-color: #4A4A4A;
+    height: 700px;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+.blabla-three{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+
+.blabla-three p{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 4;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.image-three{
+    width: 24%;
+    margin: 0;
+    margin-top: -30px;
+}
+
+.image-three:hover{
+    width: 25%;
+}
+
+.section-four{
+    padding: 80px 0;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: #4A4A4A;
+    line-height: 1.1;
+    word-spacing: 10px;
+}
+
+.blabla-four span{
+    padding-right: 30px;
+}
+
+footer{
+    height: 62px;
+    padding: 0 32px;
+    background-color: #9B9B9B;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.footer-right{
+    margin-left: 1500px;
+}
